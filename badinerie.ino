@@ -115,7 +115,7 @@ uint16_t T2[] = {
 };
 
 void setup() {
-    pinMode(3, OUTPUT);
+    pinMode(11, OUTPUT);
 }
 
 void loop() {
@@ -123,7 +123,7 @@ void loop() {
     {
         for(uint16_t i = 0; i < sizeof(T1)/ sizeof(uint16_t); i++)
         {
-            tone(3, T1[i]);
+            tone(11, T1[i]);
 
             delay(50);
         }
@@ -132,7 +132,7 @@ void loop() {
     {
         for(uint16_t i = 0; i < sizeof(T2)/ sizeof(uint16_t); i++)
         {
-            tone(3, T2[i]);
+            tone(11, T2[i]);
 
             delay(50);
         }
